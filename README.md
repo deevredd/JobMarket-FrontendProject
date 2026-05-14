@@ -40,25 +40,6 @@ uvicorn main:app --reload
 | `/api/skill-combinations` | GET | Popular skill pairs |
 | `/api/trending-skills` | GET | Trending skills |
 
-## Project Structure
-
-\`\`\`
-job-market-dashboard/
-├── public/
-├── src/
-│   ├── components/Dashboard.jsx
-│   ├── App.js
-│   └── api.js
-├── backend/
-│   ├── main.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── database.py
-│   └── requirements.txt
-├── package.json
-└── README.md
-\`\`\`
-
 ## Deployment
 
 **Frontend (Vercel):**
@@ -70,24 +51,6 @@ job-market-dashboard/
 - Connect GitHub repo
 - Optionally set `DATABASE_URL` for a managed database
 - Auto-deploys on push
-
-## Testing
-
-\`\`\`bash
-# Backend tests
-cd backend
-pytest
-
-# Frontend tests (when configured)
-npm test
-\`\`\`
-
-## Contributing
-1. Fork the repo
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Open pull request
 
 ## License
 MIT
